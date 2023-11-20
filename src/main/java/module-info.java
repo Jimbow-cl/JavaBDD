@@ -4,7 +4,6 @@ module com.example.javabdd {
 
     requires org.kordamp.bootstrapfx.core;
     requires java.sql;
-    requires waffle.jna;
     opens com.example.javabdd to javafx.fxml;
     exports com.example.javabdd;
 }
