@@ -35,7 +35,7 @@ public class EspClass {
 // Récupérer les données par nom de colonne
                     String name = resultats.getString("temperature");
 // Afficher les valeurs
-                    System.out.println("temperature : " + name);
+                    System.out.println("temperature : " + name + "°C");
                 }
 // Fermer les connexions
                 resultats.close();
@@ -71,7 +71,7 @@ public class EspClass {
 // Récupérer les données par nom de colonne
                 String name = resultats.getString("humidite");
 // Afficher les valeurs
-                System.out.println("humidite : " + name);
+                System.out.println("humidite : " + name + "%");
             }
 // Fermer les connexions
             resultats.close();
